@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pino Travel | Family-run travel agency in Meriden, CT since 1990</title>
+<meta name="description" content="Tailored trips to Italy and Europe, all-inclusive Caribbean family vacations, cruises and rail. Family-run, ARC and IATA accredited travel agency in Meriden, Connecticut.">
+<meta property="og:title" content="Pino Travel, Meriden CT">
+<meta property="og:description" content="Italy by car, Sardinia, the Caribbean, cruises and rail. Planned by a family-run Connecticut agency since 1990.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"TravelAgency","name":"Pino Travel Ltd","telephone":"+1-203-237-7466","email":"info@pinotravel.com","foundingDate":"1990","address":{"@type":"PostalAddress","streetAddress":"1237 E Main St #4","addressLocality":"Meriden","addressRegion":"CT","postalCode":"06450","addressCountry":"US"}}
+</script>
+<style>
+:root{--ink:#10222b;--sea:#0b6e7c;--shallows:#c3e7e5;--red:#c8102e;--paper:#fbfcfc;--mute:#4a5d66;
+--head:"Bricolage Grotesque",system-ui,sans-serif;--body:"Instrument Sans",system-ui,-apple-system,Segoe UI,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font:400 1.0625rem/1.65 var(--body);color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px;border-radius:4px}
+.wrap{width:min(1080px,100% - 2.5rem);margin-inline:auto}
+h1,h2,h3{font-family:var(--head);font-weight:800;line-height:1.02;letter-spacing:-.025em}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem);max-width:14ch}
+h2{font-size:clamp(1.9rem,4vw,2.9rem);margin-bottom:1.2rem}
+p{max-width:60ch}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:.95rem 1.6rem;border-radius:10px;transition:transform .15s,background .2s}
+.btn:active{transform:scale(.98)}
+.btn.red{background:var(--red);color:#fff}
+.btn.red:hover{background:#a50d26}
+.btn.ghost{border:2px solid currentColor}
+
+header{background:var(--sea);color:#fff}
+.bar{display:flex;align-items:center;gap:1.5rem;padding:.9rem 0;flex-wrap:wrap}
+.brand{font-family:var(--head);font-weight:800;font-size:1.35rem;text-decoration:none;margin-right:auto;letter-spacing:-.02em}
+nav{display:flex;gap:1.4rem;font-size:.95rem}
+nav a{text-decoration:none;opacity:.88}
+nav a:hover{opacity:1;text-decoration:underline}
+.tel{font-weight:700;text-decoration:none}
+
+.hero{background:var(--sea);color:#fff;padding:clamp(2.5rem,7vw,5rem) 0 clamp(3rem,8vw,6rem)}
+.hero p{margin:1.4rem 0 2rem;font-size:1.2rem;color:#dff3f2}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem}
+.hero .ghost{color:#fff}
+.hero .ghost:hover{background:#fff;color:var(--sea)}
+
+.trust{background:var(--ink);color:#fff}
+.trust ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem 2rem;padding-block:1.6rem}
+.trust b{font-family:var(--head);font-size:1.9rem;display:block;line-height:1.1}
+.trust span{color:var(--shallows);font-size:.95rem}
+
+section{padding:clamp(2.5rem,6vw,4.5rem) 0}
+.trips details{border-top:2px solid var(--ink)}
+.trips details:last-of-type{border-bottom:2px solid var(--ink)}
+.trips summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.2rem 0;font-family:var(--head);font-weight:800;font-size:clamp(1.5rem,3.6vw,2.4rem);letter-spacing:-.02em;line-height:1.1}
+.trips summary::-webkit-details-marker{display:none}
+.trips summary::after{content:"+";font-size:2rem;color:var(--red);transition:transform .25s;flex:none}
+.trips details[open] summary::after{transform:rotate(45deg)}
+.trips summary small{display:block;font-family:var(--body);font-weight:500;font-size:.95rem;color:var(--sea);letter-spacing:0;margin-top:.2rem}
+.trips .open-body{padding:0 0 1.6rem;max-width:62ch}
+.trips .open-body p{margin-bottom:1rem}
+.trips .btn{padding:.7rem 1.3rem}
+
+.story{background:var(--shallows)}
+.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,4rem)}
+.story p+p{margin-top:1rem}
+.book{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.box{border:2px solid var(--ink);border-radius:16px;padding:1.6rem;display:flex;flex-direction:column;align-items:flex-start;gap:.9rem}
+.box p{flex:1;color:var(--mute)}
+.box h3{font-size:1.5rem}
+.contact{background:var(--ink);color:#fff}
+.contact a{color:var(--shallows)}
+.contact address{font-style:normal;margin:1rem 0 1.4rem}
+.contact .ghost{color:#fff}
+.contact .ghost:hover{background:#fff;color:var(--ink)}
+footer{padding:1.5rem 0;font-size:.875rem;color:var(--mute)}
+
+@media (max-width:820px){
+ .story-grid,.book{grid-template-columns:1fr}
+ .trust ul{grid-template-columns:1fr}
+ nav{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap bar">
+  <a class="brand" href="#top">Pino Travel</a>
+  <nav aria-label="Main"><a href="#trips">Trips</a><a href="#story">About</a><a href="#book">Book online</a><a href="#contact">Contact</a></nav>
+  <a class="tel" href="tel:+12032377466">203-237-7466</a>
+ </div>
+</header>
+
+<main id="top">
+ <div class="hero">
+  <div class="wrap">
+   <h1>Italy by car. The Caribbean with the family.</h1>
+   <p>Trips planned around you by a family-run Connecticut agency, from a first call to the day you fly.</p>
+   <div class="cta">
+    <a class="btn red" href="mailto:info@pinotravel.com?subject=Trip%20planning%20request&body=Hi%20Pino%20Travel%2C%0A%0AI%27d%20like%20help%20planning%20a%20trip.%0A%0ADestination%20or%20ideas%3A%0ATravel%20dates%3A%0ANumber%20of%20travelers%3A%0AName%20and%20phone%3A%0A">Plan my trip</a>
+    <a class="btn ghost" href="tel:+12032377466">Call 203-237-7466</a>
+   </div>
+  </div>
+ </div>
+
+ <div class="trust">
+  <ul class="wrap">
+   <li><b>Since 1990</b><span>Family-run in Meriden, Connecticut</span></li>
+   <li><b>ARC and IATA</b><span>Accredited agency</span></li>
+   <li><b>Top seller in 1996</b><span>Top American Airline seller for Connecticut and Western Mass. to Latin America</span></li>
+  </ul>
+ </div>
+
+ <section class="trips" id="trips">
+  <div class="wrap">
+   <h2>Where do you want to go?</h2>
+   <details open>
+    <summary><span>Sardinia, Italy<small>New for 2026</small></span></summary>
+    <div class="open-body"><p>Pino Travel will customize your Sardinia trip around your dates, pace and budget. Call or write to start.</p><a class="btn red" href="mailto:info@pinotravel.com?subject=Sardinia%20trip%20request">Ask about Sardinia</a></div>
+   </details>
+   <details>
+    <summary><span>Discover Italy by car<small>3, 5, 7 days or more</small></span></summary>
+    <div class="open-body"><p>A tailored itinerary and a rental car, so you can set the route and stop where you like. Tell us how long you have and we will build around it.</p><a class="btn red" href="mailto:info@pinotravel.com?subject=Italy%20by%20car%20itinerary">Get an itinerary</a></div>
+   </details>
+   <details>
+    <summary><span>All-inclusive Caribbean family vacations<small>Including Viva Miches by Wyndham, north of Punta Cana</small></span></summary>
+    <div class="open-body"><p>One price, everyone covered. Call for current rates at Viva Miches by Wyndham, or ask about Sandals and other resorts.</p><a class="btn red" href="mailto:info@pinotravel.com?subject=Caribbean%20family%20vacation">Ask about the Caribbean</a></div>
+   </details>
+   <details>
+    <summary><span>Italy and Europe tours, cruises and rail<small>Eurail passes and rental cars</small></span></summary>
+    <div class="open-body"><p>Guided tours, cruises, Eurail passes or a rental car. Pino Travel has been a leader in flights to Italy, Europe, Puerto Rico and the Caribbean for decades.</p><a class="btn red" href="mailto:info@pinotravel.com?subject=Europe%20tours%2C%20cruises%20or%20rail">Start planning</a></div>
+   </details>
+  </div>
+ </section>
+
+ <section class="story" id="story">
+  <div class="wrap story-grid">
+   <h2>A travel agency that has been in the family for over three decades</h2>
+   <div>
+    <p>Pino Parisi opened his first agency in Meriden in 1980. Pino Travel Ltd opened on February 2, 1990 and grew to four Connecticut offices by 1995. Today it runs from one office in Meriden.</p>
+    <p>The goal has stayed the same: the utmost personal service and the best fares for every customer.</p>
+   </div>
+  </div>
+ </section>
+
+ <section id="book">
+  <div class="wrap book">
+   <div class="box"><h3>Search and book online</h3><p>Prefer to browse? Search flights, hotels and vacation packages on our booking site.</p><a class="btn red" href="https://travel-agencyweb.com/?whitelabelid=pino-travel-ltd">Open booking site</a></div>
+   <div class="box"><h3>Protect your trip</h3><p>Travel insurance is available through Travel Insured International.</p><a class="btn ghost" href="http://www.travelinsured.com/agency?agency=49170&r=http%3a%2f%2fwww.pinotravel.com&p=">Get travel protection</a></div>
+  </div>
+ </section>
+
+ <section class="contact" id="contact">
+  <div class="wrap">
+   <h2>Talk to a real person</h2>
+   <address>Pino Travel Ltd<br>1237 E Main St #4<br>Meriden, CT 06450<br><a href="tel:+12032377466">203-237-7466</a><br><a href="mailto:info@pinotravel.com">info@pinotravel.com</a></address>
+   <div class="cta">
+    <a class="btn red" href="tel:+12032377466">Call now</a>
+    <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Pino+Travel+Ltd+1237+E+Main+St+Meriden+CT">Get directions</a>
+   </div>
+  </div>
+ </section>
+</main>
+
+<footer>
+ <div class="wrap">&copy; 2026 Pino Travel Ltd. Concept redesign prepared for the owner; not the official website.</div>
+</footer>
+
+<script>
+(function(){
+ var all=document.querySelectorAll('.trips details');
+ all.forEach(function(d){d.addEventListener('toggle',function(){
+  if(d.open){all.forEach(function(o){if(o!==d)o.open=false})}
+ })});
+})();
+</script>
+</body>
+</html>
